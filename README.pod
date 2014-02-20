@@ -112,14 +112,14 @@ Engine manager
 =head1 EXAMPLES
 
 B<Dry Run>: Printing what will be run without runing it
-~/scripts/aligner/batchBowtie2 --dryrun --bowtie Drosophila_melanogaster.BDGP5.71.min --dir /n/analysis/Blanchette/sha/MOLNG-61/C05HTACXX /n/analysis/Blanchette/sha/MOLNG-61/C0K08ACXX --destdir Sex_n_Tudor'
+batchBowtie --dryrun --bowtie Drosophila_melanogaster.BDGP5.71.min --dir /n/analysis/Blanchette/sha/MOLNG-61/C05HTACXX /n/analysis/Blanchette/sha/MOLNG-61/C0K08ACXX --destdir Sex_n_Tudor'
 
 B<Running>:
-~/scripts/aligner/batchBowtie --bowtie Drosophila_melanogaster.BDGP5.71.min --dir /n/analysis/Blanchette/sha/MOLNG-61/C05HTACXX /n/analysis/Blanchette/sha/MOLNG-61/C0K08ACXX --destdir Sex_n_Tudor'
+batchBowtie --bowtie Drosophila_melanogaster.BDGP5.71.min --dir /n/analysis/Blanchette/sha/MOLNG-61/C05HTACXX /n/analysis/Blanchette/sha/MOLNG-61/C0K08ACXX --destdir Sex_n_Tudor'
 
 B<debugging>
-~/scripts/aligner/batchBowtie --bowtie Drosophila_melanogaster.BDGP5.73.min --dir /n/analysis/Blanchette/sha/MOLNG-61/C05HTACXX --destdir temp --debug
+batchBowtie --bowtie Drosophila_melanogaster.BDGP5.73.min --dir /n/analysis/Blanchette/sha/MOLNG-61/C05HTACXX --destdir temp --debug
 
-~/scripts/aligner/batchBowtie --bowtie Drosophila_melanogaster.BDGP5.73.min --dir test  --destdir temp
+batchBowtie --bowtie Drosophila_melanogaster.BDGP5.73.min --dir test  --destdir temp
 
 =cut
